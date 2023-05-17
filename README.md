@@ -2,8 +2,8 @@
 
 Los grafos están definidos como listas de aristas.
 
-1. Los 3-ciclos muestran una relación estrecha entre 3 entidades (vértices),
-    cada uno de los vértices está relacionado con los otros dos
+Los 3-ciclos muestran una relación estrecha entre 3 entidades (vértices),
+cada uno de los vértices está relacionado con los otros dos
     
     Ejemplo:
         {(B,B),(B,A),(C,A),(A,B),(A,D),(B,C),(F,A),(F,D)}
@@ -39,15 +39,3 @@ Los grafos están definidos como listas de aristas.
          ((C,F) , (pending, A))
          ((D,F) , (pending, A))]
         
-2. Datos en múltiples ficheros
-    Suponemos que la lista de las aristas no están en un único fichero, sino 
-    en muchos.
-    Escribir un programa que calcule los 3-ciclos de un grafo que se encuentra
-    definido en múltiples ficheros de entrado.
-    
-3. 3-ciclos locales
-    Supongamos que los datos del grafo se encuentran repartidos en múltiples
-    ficheros. Queremos calcular los 3-ciclos, pero sólamente aquellos que sean
-    locales a cada uno de los ficheros.
-    Escribir un programa que calcule independientemente los 3-ciclos de cada
-    uno de los ficheros de entrada.
